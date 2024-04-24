@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text1{
+            font-size: 50pt;
+            color: rgb(223, 181, 46);
+            text-align: center;
+        }
+        .text2{
+            color: rgb(102, 60, 6);
+            text-align: center;
+        }
+        .text3{
+            font-size: 30pt;
+            color: rgb(243, 197, 72);
+            text-align: center;
+        }
+        .gambar1{
+            width: 1000px;
+            height: 500px;
+            border: 20px solid rgba(182, 181, 181, 0.281);
+            display: block;
+            margin: 0 auto;
+        }
+        body{
+            background-image: url(./image/cover1.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
+        .fast img{
+            width: 200px;
+            border-radius: 10px;
+            
+        }
+        .fast {
+            border-radius: 10px;
+            box-shadow: 8px 5px 10px orangered;
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="text1">BURGERDOOR CAFE MENU</h1>
+    <h5 class="text2">since 1999</h5>
+    <img class="gambar1" src="./image/cover2.jpg" alt="cover">
+    <p class="text3">HUNGRY Everyone? Scroll It Now !</p>
+
+    <div class="fast">
+        <h3>Breakfast</h3>
+        <img class="fast" src="./image/breakfast1.jpg" alt="breakfast1">
+        
+        <img class="fast" src="./image/breakfast2.jpg" alt="breakfast2">
+        <img class="fast" src="./image/breakfast3.jpg" alt="breakfast3">
+
+
+    </div>
+    
+
+</body>
+</html>
