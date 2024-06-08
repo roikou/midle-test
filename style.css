@@ -1,0 +1,116 @@
+nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(219, 84, 75);
+    padding: 15px;
+    float: left;
+    
+}
+
+a:hover {
+    background-color: burlywood;
+}
+
+body {
+    margin-top: 10%;
+    position: relative;
+}
+
+.main-header {
+    background-color: rgb(245, 235, 220);
+    padding-left: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+}
+
+.header-info {
+    text-align: left;
+    color: rgb(219, 84, 75);
+    padding: 0px;
+    margin: 14px;
+    position: absolute;
+    left: 0px;
+}
+
+.title {
+    
+    font-style: italic;
+}
+
+h3, p {
+    text-align: center;
+    color:steelblue;
+    font-family: sans-serif;
+    
+}
+
+.header {
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+}
+
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 80px gainsboro;
+
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+} 
+
+.item {
+    margin: 10px ;
+    background-color: gainsboro;
+}
+
+.main-header {
+    background-color: rgb(245, 235, 220);
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.header-info {
+    text-align: left;
+    color: rgb(219, 84, 75);
+
+}
+
+.header-info a {
+    padding: 0;
+    text-decoration: none;
+}
+
+.header-info a:hover {
+    background-color: transparent;
+}
+
+.imgdoor {
+    margin-left:auto; 
+    margin-right:auto; 
+    display:block;
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 80px gainsboro;
+}
+
+
